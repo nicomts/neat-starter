@@ -5,6 +5,8 @@ backend:
   ### enable below lines for github integration ###
   name: github
   repo: nicomts/neat-starter
+  base_url: https://gregarious-eclair-64cbb4.netlify.app/.netlify/identity/auth0/ # Important: Netlify's Auth0 endpoint
+  auth_endpoint: auth # This path is handled by the Netlify Auth0 extension
 media_folder: "src/static/img"
 public_folder: "/static/img"
 
